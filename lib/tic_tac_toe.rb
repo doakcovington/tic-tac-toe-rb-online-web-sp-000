@@ -32,6 +32,7 @@ end
 #checks if index in board is taken or not
 def position_taken?(board, index)
   if board[index] == " " || board[index] == "" || board[index] == nil
+    puts "Sorry, that position is taken"
     return false
   else
     return true
